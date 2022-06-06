@@ -25,14 +25,17 @@ public class CheckNrIsOddOrEven {
 	//2 care verifica daca numarul este par sau impar
 	public void checkNumber() {
 		
+
+		
 		// % --modulus 
-		if(number % 2 == 0) {
-			
-			System.out.println("Number is even!");
-			
-		}else {
-			
-			System.out.println("Number is odd!");
-		}
+		
+		  if(number % 2 == 0) {
+		  
+		  System.out.println("Number is even!");
+		  
+		  }else {
+		  
+		  System.out.println("Number is odd!"); }
+		 
 	}
 }
