@@ -22,7 +22,7 @@ public class PasswordValidator {
 	String username;
 	Scanner scan  =  new Scanner(System.in);
 	boolean valid = true;
-	
+
 	
 	public void getUsername() {
 		System.out.println("Introdu username : ");
@@ -45,8 +45,8 @@ public class PasswordValidator {
 	}
 	
 	public void checkPasswordRules(String pass) {
-		//valid =  true;
-		
+		valid =  true;
+
 		if(pass.length() <10) {
 			valid = false;
 			System.out.println("parola trebuie sa fie de minim 10 caractere");
