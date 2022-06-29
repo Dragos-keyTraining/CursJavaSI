@@ -19,6 +19,11 @@ public class TestInheritance {
 				+ tester.getDepartament() + ", este de nivel " + tester.getSeniority() + " si foloseste " 
 				+ tester.getProgrammingLanguage() + " pentru a scrie teste!");
 		
+		String nume;
+		int numar;
+		
+		//var ceva = "123";
+		
 		
 		
 		/*
