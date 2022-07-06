@@ -16,6 +16,10 @@ public class TestProduct {
 		mobile.printProductRating();
 		
 		
+		//
+		
+		
+		
 	}
 
 }
